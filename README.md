@@ -49,10 +49,11 @@ This project builds a real-time data pipeline that captures user behavior and pu
 - 🔗 **Joined data** (orders enriched with user location) for analytics  
 - 🔍 **Athena tables** created over S3 to support ad hoc SQL queries  
 - 📊 **Sample business use cases** implemented via SQL, such as:
-  - Top cities by order volume
-  - Hourly order trends
-  - Best-selling items by location
-  - High-spending users and fraud checks
+  - Average Order Value by Payment Method
+  - Most Popular Items sold
+  - Most Repeated purchases per customer
+  - Top-spending users in a week
+  - Total Order Volume by City
 
 This setup gives you a production-like simulation of a clickstream pipeline, with zero infrastructure for querying and full compatibility with modern BI tools.
 
